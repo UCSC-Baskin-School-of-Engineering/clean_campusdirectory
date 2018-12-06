@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "fs-extra": "^7.0.1",
+    "puppeteer": "^1.11.0",
+    "superagent": "^4.0.0",
+    "xlsx": "^0.14.1"
+  },
+  "devDependencies": {
+    "@types/puppeteer": "^1.10.1",
+    "@types/superagent": "^3.8.4"
+  }
+}

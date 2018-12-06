@@ -42,7 +42,7 @@ let users;
   for (const userId in users) {
     const userInfo = users[userId];
 
-    if (userInfo.aff === 'Undergraduate' || userInfo.done || userInfo.error || userInfo.num > 0) continue;
+    if (userInfo.aff === 'Undergraduate' || !userInfo.aff || userInfo.done || userInfo.error) continue;
 
     console.log('\nUser:', userId);
 
